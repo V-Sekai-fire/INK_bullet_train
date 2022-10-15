@@ -26,23 +26,17 @@ Bullet Train
 // risky tasks can reduce money and or energy
 // dangerous tasks can reduce status 
 
-// Insight is your intelligence, ability to solve problems and analyze information.
-// Intuition is the ability to make decisions and come up with solutions without being able to exactly pinpoint how you came up with them.
-// Endurance is essential to coordination, and balance.
-// Allure is your ability to adapt and empathize with other people.
-// Willpower is your ability to control yourself and follow through on difficult tasks
-
 // Generate a character with 5 attributes (integer) values. 
 // use action to get 5 dice by sleeping.
 // Pick from 1 of the 5 dice which range from 1 to 6.
 // Roll one dice to a task to test 1+ attributes.
 // There's a failure or success chart (4 entries).
 // If the test succeeds subtract health from the task. When task has 0 health, remove.
-VAR attr1 = 2
-VAR attr2 = 3
-VAR attr3 = 3
-VAR attr4 = 2
-VAR attr5 = 4
+VAR attribute_insight = 2 // The ability to use your intelligence to solve problems and analyze information.
+VAR attribute_intuition = 3 // The ability to make decisions and come up with solutions without being able to exactly pinpoint how you came up with them.
+VAR attribute_endurance = 3 // The ability to coordinate, and balance.
+VAR attribute_allure = 2 // The ability to adapt and empathize with other people.
+VAR attribute_willpower = 4 // The ability to control yourself and follow through on difficult tasks.
 
 -> main
 
@@ -80,7 +74,7 @@ VAR my_task_health = 5
 -> main
 
 == decrement(roll) ==
-{ roll > attr1:
+{ roll > attribute_insight:
     ~ my_task_health = my_task_health - 1
 }
 ->->
