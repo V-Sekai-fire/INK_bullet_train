@@ -2,6 +2,8 @@ Bullet Train
 
 // Riding the Sleeper Train in Japan on a Heavy Snow Day. // https://www.youtube.com/watch?v=KG53Pr3pFg4
 
+// https://github.com/inkle/inky/releases/tag/0.13.0
+
 // paulloz - 07/08/2022
 // If I understand correctly, you have like an amount of dice per cycle and you basically roll all of them at the beginning and then when you take an action you decide which one you assign it and each action has a lifebar to complete
 // Lists are kind of a hassle so I'd either keep one variable per dice or have them serialized into a string.
