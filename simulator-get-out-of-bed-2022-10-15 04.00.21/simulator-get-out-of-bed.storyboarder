@@ -1,0 +1,144 @@
+{
+  "version": "3.0.0",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 30,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "0POTQ",
+      "url": "board-1-0POTQ.png",
+      "newShot": false,
+      "lastEdited": 1665812280296,
+      "layers": {
+        "reference": {
+          "url": "board-1-0POTQ-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "link": "board-1-0POTQ.psd",
+      "notes": "https://www.youtube.com/watch?v=KG53Pr3pFg4\n\nRiding the Sleeper Train in Japan on a Heavy Snow Day (Tokyo→Izumo-shi)\n\n(Stable diffusion AI)",
+      "dialogue": "Riding the Sleeper Train in Japan on a Heavy Snow Day"
+    },
+    {
+      "uid": "8LNRD",
+      "url": "board-2-8LNRD.png",
+      "newShot": false,
+      "lastEdited": 1665812390560,
+      "layers": {
+        "reference": {
+          "url": "board-2-8LNRD-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 2,
+      "shot": "2A",
+      "time": 2000,
+      "lineMileage": 0,
+      "notes": "https://store.steampowered.com/app/1823560/Anno_Mutationem_Original_Game_Soundtrack_Complete_Edition/",
+      "dialogue": "Woman walking towards Japanese bullet train station",
+      "link": "board-2-8LNRD.psd"
+    },
+    {
+      "uid": "H0RXH",
+      "url": "board-2-H0RXH.png",
+      "newShot": false,
+      "lastEdited": 1665814116941,
+      "layers": {
+        "reference": {
+          "url": "board-2-H0RXH-reference.png",
+          "opacity": 0.75
+        }
+      },
+      "number": 3,
+      "shot": "3A",
+      "time": 4000,
+      "action": "",
+      "lineMileage": 0,
+      "dialogue": "Fuss with the phone to get a ticket\n"
+    },
+    {
+      "uid": "K2LIO",
+      "url": "board-5-K2LIO.png",
+      "newShot": false,
+      "lastEdited": 1665812519700,
+      "layers": {
+        "reference": {
+          "url": "board-5-K2LIO-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 4,
+      "shot": "4A",
+      "time": 6000,
+      "notes": "",
+      "action": "",
+      "dialogue": "Woman meeting holographic artificial intelligence assistant woman, Style of Makoto Shinkai",
+      "link": "board-5-K2LIO.psd"
+    },
+    {
+      "uid": "J5ZFU",
+      "url": "board-5-J5ZFU.png",
+      "newShot": false,
+      "lastEdited": 1665814168007,
+      "layers": {},
+      "number": 5,
+      "shot": "5A",
+      "time": 8000,
+      "action": "",
+      "dialogue": "Enter the gate"
+    },
+    {
+      "uid": "AYZW2",
+      "url": "board-2-AYZW2.png",
+      "newShot": false,
+      "lastEdited": 1665812383210,
+      "layers": {
+        "reference": {
+          "url": "board-2-AYZW2-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 6,
+      "shot": "6A",
+      "time": 10000,
+      "notes": "",
+      "action": "",
+      "dialogue": "Change wardrobe",
+      "link": "board-2-AYZW2.psd"
+    },
+    {
+      "uid": "JHDCC",
+      "url": "board-2-JHDCC.png",
+      "newShot": false,
+      "lastEdited": 1665812378675,
+      "layers": {
+        "reference": {
+          "url": "board-2-JHDCC-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 7,
+      "shot": "7A",
+      "time": 12000,
+      "notes": "",
+      "action": "",
+      "dialogue": "Sleep in the overhead window bullet train car.",
+      "link": "board-2-JHDCC.psd"
+    },
+    {
+      "uid": "Y8OPO",
+      "url": "board-6-Y8OPO.png",
+      "newShot": false,
+      "lastEdited": 1665813193916,
+      "layers": {},
+      "number": 8,
+      "shot": "8A",
+      "time": 14000,
+      "dialogue": "Music ambient of the train in snow fade to black.\n",
+      "action": "Begins intro music"
+    }
+  ]
+}
