@@ -22,7 +22,7 @@ Bullet Train
 // Generate a character with 5 attributes (integer) values. 
 // Use an action to get (5 * (Max health / Health)) dice by sleeping.
 // Remove 1 of the dice which range from 1 to 6.
-// Roll one dice to a task to test 1 or more attributes.
+// Roll one dice to a task to test 1 or more attributes by use the dice roll and the bonus from the attribute.
 // There's a failure or success chart (4 entries).
 // If the test succeeds subtract health from the task. When task has 0 health, remove.
 // Lose if your character health is 0.
