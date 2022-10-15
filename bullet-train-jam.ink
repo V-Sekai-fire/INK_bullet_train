@@ -67,7 +67,7 @@ VAR roll5 = 0
 
 === main ===
 ~ roll_dices()
-+ Try task (Task health {my_task_health}) -> my_task
++ Try task (Steps remaining {my_task_health}) -> my_task
 + Give up
 - -> walk_forward
 
