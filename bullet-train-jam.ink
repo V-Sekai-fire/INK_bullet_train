@@ -20,6 +20,9 @@ Bullet Train
 // Start with most modifiers 0
 // one is +1
 // one is -1
+// safe tasks have no status reduction
+// risky tasks can reduce money and or energy
+// dangerous tasks can reduce status 
 
 * walk forward -> mess_with_the_phone
 
