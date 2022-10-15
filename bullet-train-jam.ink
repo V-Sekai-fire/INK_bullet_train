@@ -20,11 +20,13 @@ Bullet Train
 // dangerous tasks can reduce status 
 
 // Generate a character with 5 attributes (integer) values. 
-// use action to get 5 dice by sleeping.
-// Pick from 1 of the 5 dice which range from 1 to 6.
-// Roll one dice to a task to test 1+ attributes.
+// Use an action to get (5 * (Max health / Health)) dice by sleeping.
+// Remove 1 of the dice which range from 1 to 6.
+// Roll one dice to a task to test 1 or more attributes.
 // There's a failure or success chart (4 entries).
 // If the test succeeds subtract health from the task. When task has 0 health, remove.
+// Lose if your character health is 0.
+
 VAR attribute_insight = 1 // The ability to use your intelligence to solve problems and analyze information.
 VAR attribute_intuition = 0 // The ability to make decisions and come up with solutions without being able to exactly pinpoint how you came up with them.
 VAR attribute_endurance = -1 // The ability to coordinate, and balance.
