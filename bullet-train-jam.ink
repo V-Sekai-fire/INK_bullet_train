@@ -3,8 +3,7 @@ Bullet Train
 // Riding the Sleeper Train in Japan on a Heavy Snow Day. // https://www.youtube.com/watch?v=KG53Pr3pFg4
 
 // paulloz - 07/08/2022
-// If I understand correctly, you have like an amount of dice per cycle and you basically roll all of them at the beginning and then when you take an action you decide which one you assign it and each action has a lifebar to complete 
-// We roll at again on assignment but that isn't hard right?
+// If I understand correctly, you have like an amount of dice per cycle and you basically roll all of them at the beginning and then when you take an action you decide which one you assign it and each action has a lifebar to complete
 // Lists are kind of a hassle so I'd either keep one variable per dice or have them serialized into a string.
 // What's called "list" in ink isn't what you'd expect when you think of a list as a programmer
 // In the end, ink is just a thing that keeps tracks of a big story state and you ask it the next bit of available content whenever you want
