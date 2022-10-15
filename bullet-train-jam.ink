@@ -26,6 +26,12 @@ Bullet Train
 // risky tasks can reduce money and or energy
 // dangerous tasks can reduce status 
 
+// Insight is your intelligence, ability to solve problems and analyze information.
+// Intuition is the ability to make decisions and come up with solutions without being able to exactly pinpoint how you came up with them.
+// Endurance is essential to coordination, and balance.
+// Allure is your ability to adapt and empathize with other people.
+// Willpower is your ability to control yourself and follow through on difficult tasks
+
 * walk forward -> mess_with_the_phone
 
 == mess_with_the_phone ==
