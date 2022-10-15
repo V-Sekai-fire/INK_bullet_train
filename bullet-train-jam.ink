@@ -32,6 +32,61 @@ Bullet Train
 // Allure is your ability to adapt and empathize with other people.
 // Willpower is your ability to control yourself and follow through on difficult tasks
 
+// Generate a character with 5 attributes (integer) values. 
+// use action to get 5 dice by sleeping.
+// Pick from 1 of the 5 dice which range from 1 to 6.
+// Roll one dice to a task to test 1+ attributes.
+// There's a failure or success chart (4 entries).
+// If the test succeeds subtract health from the task. When task has 0 health, remove.
+VAR attr1 = 2
+VAR attr2 = 3
+VAR attr3 = 3
+VAR attr4 = 2
+VAR attr5 = 4
+
+-> main
+
+=== function roll_dices() ===
+VAR roll1 = 0
+VAR roll2 = 0
+VAR roll3 = 0
+VAR roll4 = 0
+VAR roll5 = 0
+~ roll1 = RANDOM(1, 6)
+~ roll2 = RANDOM(1, 6)
+~ roll3 = RANDOM(1, 6)
+~ roll4 = RANDOM(1, 6)
+~ roll5 = RANDOM(1, 6)
+
+=== list_dices(-> divert) ===
++ roll: {roll1} -> divert(roll1) ->->
++ roll: {roll2} -> divert(roll2) ->->
++ roll: {roll3} -> divert(roll3) ->->
++ roll: {roll4} -> divert(roll4) ->->
++ roll: {roll5} -> divert(roll5) ->->
+
+=== main ===
+~ roll_dices()
++ Try task (Task health {my_task_health}) -> my_task
++ Give up
+- -> walk_forward
+
+=== my_task ===
+VAR my_task_health = 5
+-> list_dices(-> decrement) ->
+{ my_task_health <= 0:
+    The task is done. -> DONE
+}
+-> main
+
+== decrement(roll) ==
+{ roll > attr1:
+    ~ my_task_health = my_task_health - 1
+}
+->->
+
+== walk_forward ==
+
 * walk forward -> mess_with_the_phone
 
 == mess_with_the_phone ==
