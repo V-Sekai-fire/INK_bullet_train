@@ -1,3 +1,3 @@
-All rights reserved.
+All rights reserved. (This is not opensource.)
+
 K. S. Ernest (iFire) Lee
-(This is not opensource.)
