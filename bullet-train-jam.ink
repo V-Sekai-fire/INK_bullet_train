@@ -4,13 +4,6 @@ Bullet Train
 
 // https://github.com/inkle/inky/releases/tag/0.13.0
 
-// paulloz - 07/08/2022
-// If I understand correctly, you have like an amount of dice per cycle and you basically roll all of them at the beginning and then when you take an action you decide which one you assign it and each action has a lifebar to complete
-// Lists are kind of a hassle so I'd either keep one variable per dice or have them serialized into a string.
-// What's called "list" in ink isn't what you'd expect when you think of a list as a programmer
-// In the end, ink is just a thing that keeps tracks of a big story state and you ask it the next bit of available content whenever you want
-// So you can build pretty much anything around ink.
-
 // Dice rolls
 // 6 - 100% Positive
 // 5 - 50% Positive / 50% Neutral
