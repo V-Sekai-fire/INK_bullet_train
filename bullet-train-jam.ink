@@ -11,11 +11,11 @@ Bullet Train
 // In the end, ink is just a thing that keeps tracks of a big story state and you ask it the next bit of available content whenever you want
 // So you can build pretty much anything around ink.
 
-
-// Dice 1,2 - 50% Neutral / 50% Negative
-// 3,4 - 25% Positive / 50% Neutral / 25% Negative
-// 5 - 50% Positive / 50% Neutral
+// Dice rolls
 // 6 - 100% Positive
+// 5 - 50% Positive / 50% Neutral
+// 3,4 - 25% Positive / 50% Neutral / 25% Negative
+// 1,2 - 50% Neutral / 50% Negative
 // Go to bed to reset dice.
 // Only have 5 dice.
 // Health worsens and the number of dice will decrease.
@@ -32,11 +32,11 @@ Bullet Train
 // Roll one dice to a task to test 1+ attributes.
 // There's a failure or success chart (4 entries).
 // If the test succeeds subtract health from the task. When task has 0 health, remove.
-VAR attribute_insight = 2 // The ability to use your intelligence to solve problems and analyze information.
-VAR attribute_intuition = 3 // The ability to make decisions and come up with solutions without being able to exactly pinpoint how you came up with them.
-VAR attribute_endurance = 3 // The ability to coordinate, and balance.
-VAR attribute_allure = 2 // The ability to adapt and empathize with other people.
-VAR attribute_willpower = 4 // The ability to control yourself and follow through on difficult tasks.
+VAR attribute_insight = 1 // The ability to use your intelligence to solve problems and analyze information.
+VAR attribute_intuition = 0 // The ability to make decisions and come up with solutions without being able to exactly pinpoint how you came up with them.
+VAR attribute_endurance = -1 // The ability to coordinate, and balance.
+VAR attribute_allure = 0 // The ability to adapt and empathize with other people.
+VAR attribute_willpower = 0 // The ability to control yourself and follow through on difficult tasks.
 
 -> main
 
