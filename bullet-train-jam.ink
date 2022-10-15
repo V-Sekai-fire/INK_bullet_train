@@ -9,6 +9,18 @@ Bullet Train
 // In the end, ink is just a thing that keeps tracks of a big story state and you ask it the next bit of available content whenever you want
 // So you can build pretty much anything around ink.
 
+
+// Dice 1,2 - 50% Neutral / 50% Negative
+// 3,4 - 25% Positive / 50% Neutral / 25% Negative
+// 5 - 50% Positive / 50% Neutral
+// 6 - 100% Positive
+// Go to bed to reset dice.
+// Only have 5 dice.
+// Health worsens and the number of dice will decrease.
+// Start with most modifiers 0
+// one is +1
+// one is -1
+
 * walk forward -> mess_with_the_phone
 
 == mess_with_the_phone ==
