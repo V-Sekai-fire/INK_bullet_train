@@ -73,7 +73,6 @@ VAR my_task_health = 5
 ->->
 
 == walk_forward ==
-
 * walk forward -> mess_with_the_phone
 
 == mess_with_the_phone ==
